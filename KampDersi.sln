@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Mate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{F61D78B2-F4FB-443F-A943-CB85F2A2EA41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefParameters", "RefAndOutParameters\RefParameters.csproj", "{19CC1663-B53B-4785-B761-A3A483F09256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAndOutParameters", "RefAndOutParameters\RefAndOutParameters.csproj", "{19CC1663-B53B-4785-B761-A3A483F09256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

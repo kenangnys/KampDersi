@@ -6,6 +6,7 @@ namespace RefAndOutParameters
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("------------ref------------");
             Number num = new Number();
 
             int num1 = 10;
@@ -20,6 +21,16 @@ namespace RefAndOutParameters
             Console.WriteLine(num3);
             nums.Numbers(ref num3, ref num4);
             Console.WriteLine(num3);
+
+            Console.WriteLine("-------------out------------");
+
+            int num5 = 10;
+            int num6 = 20;
+            Console.WriteLine(num5+num6);
+            Out Ot = new Out();
+
+            Ot.outt(out num6);
+            Console.WriteLine(num5+num6);
 
 
 
